@@ -1,0 +1,7 @@
+// src/main/resources/pack.mcmeta
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Resources for ChatGPT Anomaly mod by DaniilGPT"
+  }
+}

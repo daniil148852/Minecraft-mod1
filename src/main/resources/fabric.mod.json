@@ -1,0 +1,31 @@
+// src/main/resources/fabric.mod.json
+{
+  "schemaVersion": 1,
+  "id": "chatgpt_anomaly",
+  "version": "${version}",
+  "name": "ChatGPT Anomaly",
+  "description": "A mod that allows players to alter the world with anomalies via /anomaly commands. Created by DaniilGPT.",
+  "authors": [
+    "DaniilGPT"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com"
+  },
+  "license": "MIT",
+  "icon": "assets/chatgpt_anomaly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.daniilgpt.anomaly.ChatGPTAnomaly"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {}
+}
